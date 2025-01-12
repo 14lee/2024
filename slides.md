@@ -56,15 +56,134 @@ hideInToc: true
 - 售前、运维工作
 
 ---
-layout: iframe-right
-url: http://172.16.11.150:8700/smartdbase/#/home/index
+layout: two-cols
+# image: /smartdbase.png
+# backgroundSize: 100% auto
 level: 2
 ---
 
 # 数字孪生平台
 
-<div class="text-sm">参与平台功能开发，日常文档维护，系统工程化建设。</div>
+<div class="text-sm">参与平台功能开发，工程化建设，日常文档维护。</div>
+<br />
+<div class="text-sm">
+  <div class="">
+    <span>底座平台:</span>
+    <ul class="ml-4">
+      <li>
+        <span class="text-sky-300">
+          埋点、意见反馈、帮助中心...
+        </span>
+      </li>
+      <li>
+        <span class="text-sky-300">
+          整合各系统、cicd工程化、统一开发环境
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div class="mt-4">
+    <span>智慧应用:</span>
+    <ul class="ml-4">
+      <li>
+        <span class="text-sky-300">
+          天气模拟、粒子特效、剖面分析、位置编辑、
+          <br />
+          倾斜压片、属性查询、自定义查询、测量功能、
+          <br />
+          图标库、场景管理...
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div class="mt-4">
+    <span>
+      物联网平台
+    </span>
+    <ul class="ml-4">
+      <li>
+        <span class="text-sky-300">
+          设备管理、产品管理、监控概览、设备接入管理、
+          <br />
+          告警管理
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div class="mt-4">
+    <span>
+      数据中心
+    </span>
+    <ul class="ml-4">
+      <li>
+        <span class="text-sky-300">
+          元数据模板、首页看板、服务发布、服务管理
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
 
-<!-- ::right:: -->
 
-<!-- <iframe src="http://172.16.11.150:8700/smartdbase/#/home/index" width="100%" height="100%"></iframe> -->
+::right::
+
+<img
+  v-click
+  class="absolute right-20 w-120 h-auto top-10 z-10"
+  src="/smartdbase.png"
+  alt=""
+/>
+
+<img
+  v-click
+  class="absolute right-15 w-120 h-auto top-30 z-11"
+  src="/cicd.png"
+  alt=""
+/>
+
+<img
+  v-click
+  class="absolute right-10 w-120 h-auto top-50 z-11"
+  src="/changelog.png"
+  alt=""
+/>
+
+---
+layout: two-cols
+---
+
+# 项目支撑
+
+<div class="text-sm">
+  澄迈水务
+</div>
+<br />
+<div class="text-sm">
+  参与问题管网隐患、分析问题功能开发、同步数孪平台代码、
+  <br />
+  系统整合ai水务问答机器人
+</div>
+
+<img
+  v-click
+  class="absolute left-10 bottom-10 w-100 h-auto"
+  src="/chengmai.png"
+  alt=""
+/>
+
+::right::
+
+<div class="text-sm top-25 absolute">
+  南昌管网
+</div>
+
+<div class="text-sm top-35 absolute">
+  参与售前阶段系统功能开发
+</div>
+
+<img
+  v-click
+  class="absolute right-22 bottom-10 w-100 h-auto"
+  src="/nancang.png"
+  alt=""
+/>
