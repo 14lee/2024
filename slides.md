@@ -46,6 +46,9 @@ hideInToc: true
 <Toc text-sm minDepth="1" maxDepth="2" />
 
 ---
+layout: iframe-right
+url: https://n4ie0yx1rk.feishu.cn/share/base/dashboard/shrcnN57BMRiFumhfAUWw47KDwg
+---
 
 # 主要工作
 
@@ -57,8 +60,6 @@ hideInToc: true
 
 ---
 layout: two-cols
-# image: /smartdbase.png
-# backgroundSize: 100% auto
 level: 2
 ---
 
@@ -150,6 +151,7 @@ level: 2
 
 ---
 layout: two-cols
+level: 2
 ---
 
 # 项目支撑
@@ -158,7 +160,7 @@ layout: two-cols
   澄迈水务
 </div>
 <br />
-<div class="text-sm">
+<div class="text-sm text-sky-300">
   参与问题管网隐患、分析问题功能开发、同步数孪平台代码、
   <br />
   系统整合ai水务问答机器人
@@ -177,7 +179,7 @@ layout: two-cols
   南昌管网
 </div>
 
-<div class="text-sm top-35 absolute">
+<div class="text-sm top-35 absolute text-sky-300">
   参与售前阶段系统功能开发
 </div>
 
@@ -187,3 +189,198 @@ layout: two-cols
   src="/nancang.png"
   alt=""
 />
+
+---
+layout: two-cols
+level: 2
+---
+
+# SDK开发
+
+<!-- <section class="flex start"> -->
+<div class="text-sm text-sky-300">
+  测量功能封装到SDK中, 并支持二次编辑，实时编辑、实时顶点拾取等功能。
+</div>
+<br />
+<SlidevVideo v-click autoplay controls>
+  <source src="/measure-sdk.mp4" type="video/mp4" />
+  <p>
+    你的浏览器不支持播放该视频，请点击
+    <a href="/measure-sdk.mp4">此处</a>
+    下载。
+  </p>
+</SlidevVideo>
+
+::right::
+<section class="ml-10" v-click>
+  <h1>售前、售后</h1>
+  <div class="text-sm">
+    昆明水文项目、星沙供水
+  </div>
+  <br />
+  <div class="text-sm text-sky-300">
+    协助完成项目要求开发、底图对接、流域提取、坐标转换等问题
+  </div>
+</section>
+
+---
+
+# ai分享与实践 🤖
+
+<div class="text-sm">
+  今年9月份在林子胜和宋紫璇的带领下，有幸的参与了ai分享会，从中学习到了不少ai相关的基础知识与实战经验。
+</div>
+<br />
+<div class="text-sm">
+  日常工作中也是将ai作为一个得力助手，善用ai的能力，做到 <span class="text-sky-300 font-bold">1 + 1 > 2</span> 的效果
+</div>
+
+<img
+  v-click
+  class="absolute left-10 bottom-2 w-auto h-90"
+  src="/ai.png"
+  alt=""
+/>
+
+<img
+  v-click
+  class="absolute left-30 bottom-2 w-auto h-90"
+  src="/cursor.png"
+  alt=""
+/>
+
+<img
+  v-click
+  class="absolute left-50 bottom-2 w-auto h-90"
+  src="/kimi.png"
+  alt=""
+/>
+
+<img
+  v-click
+  class="absolute left-70 bottom-2 w-auto h-90"
+  src="/zetly.png"
+  alt=""
+/>
+
+<!--
+1. ai现阶段并不是为了取代开发者，ai存在的不确定性就导致了一定需要人为的介入去判断ai给出的答案是否正确。
+
+2. 当然也不是满目去生成代码而不去验证是否正确，还是要人为的去判断
+
+3. ai是个很好的快速学习知识的途径，相比于以前的ai能力，现在ai联网搜索能力和准确性都有很大的提升，替代一个传统的搜索引擎，所以现在获取知识的效率和准确性来说是大大提升的。
+-->
+
+---
+
+# 拓展学习
+
+<section class="flex">
+  <section class="w-40%">
+    <div class="text-sm">
+      1. 学习vue、vueuse等优秀开源项目源码，并运用到项目、产品实践中。👉
+    </div>
+    <br />
+    <div class="text-sm" v-click>
+      2. 时刻对科技、gis行业、编程、ai等最新咨询保持关注。🔥
+    </div>
+    <br />
+    <div class="text-sm" v-click>
+      3. 业余时间折腾diy nas（<span class="text-red-500 text-lg">all in boom</span>
+      <br /> 💥 👉 💀）
+    </div>
+  </section>
+
+  <section class="w-80% relative">
+    <img
+      v-click
+      class="absolute left-0 -top-20 w-full h-auto"
+      src="/vue3.png"
+      alt=""
+    />
+    <img
+      v-click
+      class="absolute left-0 top-0 w-full h-auto"
+      src="/follow.png"
+      alt=""
+    />
+    <img
+      v-click
+      class="absolute left-0 top-20 w-full h-auto"
+      src="/github-trending.png"
+      alt=""
+    />
+    <img
+      v-click
+      class="absolute left-0 top-40 w-full h-auto"
+      src="/nas.jpg"
+      alt=""
+    />
+  </section>
+</section>
+
+<!--
+1. 平时也会学习一些优秀的开源项目，并且将学习到的知识运用到平台项目中
+
+2. 今年也折腾了一些其他好玩的东西，例如自己组装一台diy nas，搭建自己的个人服务器，从买硬件到刷pve系统，到安装各种系统,一点点踩坑学习终最终也是搭建成功，从中也是学习到不少网络、服务器相关知识，这些方面虽然不是直接的体现在项目上，但对于提升综合能力方面还是很有用的。
+-->
+
+---
+
+# 进步与不足
+
+<div class="text-sm">
+  <span class="text-lg">✅ 进步</span>
+  <br />
+  今年一个很大的改进点就是 <span class="text-sky-300 text-lg">沟通</span>。
+  <br />
+  在沟通方面，今年明显感觉自己沟通能力有所提升，能够更好的表达自己的想法，以及理解他人的想法。
+</div>
+
+<br />
+<div class="text-sm">
+  <span class="text-lg">❌ 不足</span>
+  <br />
+  <ul class="ml-4">
+    <li>
+      1. 没有很好将自己想法真正实践落地。缺少魄力去推动事情的进展。
+    </li>
+    <li>
+      2. 技术广度、深度还有待提高。
+    </li>
+  </ul>
+</div>
+
+
+---
+
+# 展望未来
+
+<div class="text-sm">
+  <ul class="ml-4">
+    <li>
+      1. 持续深入数孪平台产品开发，提高平台的可用性、稳定性、易用性
+    </li>
+    <li>
+      2. 加强ai方面的实践应用。
+    </li>
+    <li>
+      3. 与他人保持良好的沟通交流，保持团队协作
+    </li>
+    <li>
+      4. 继续保持对技术的渴望，保持学习，保持进步
+    </li>
+    <li>
+      5. 持续保持对新鲜事物的好奇心
+    </li>
+  </ul>
+</div>
+
+---
+hideInToc: true
+layout: cover
+background: https://cover.sli.dev
+---
+
+# 感谢聆听
+
