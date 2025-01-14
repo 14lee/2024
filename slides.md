@@ -53,8 +53,8 @@ url: https://n4ie0yx1rk.feishu.cn/share/base/dashboard/shrcnN57BMRiFumhfAUWw47KD
 - 数字孪生平台功能开发
 - 项目支撑
 - SDK开发
-- ai分享和实践应用
 - 售前、运维工作
+- ai分享和实践应用
 
 ---
 layout: two-cols
@@ -159,7 +159,7 @@ level: 2
 </div>
 <br />
 <div class="text-sm text-sky-300">
-  参与问题管网隐患、分析问题功能开发、同步数孪平台代码、
+  参与管网隐患、分析问题功能开发、同步数孪平台代码、
   <br />
   系统整合ai水务问答机器人
 </div>
@@ -178,7 +178,7 @@ level: 2
 </div>
 
 <div class="text-sm top-35 absolute text-sky-300">
-  参与售前阶段系统功能开发
+  参与售前阶段完整系统功能开发
 </div>
 
 <img
@@ -230,7 +230,7 @@ level: 2
 </div>
 <br />
 <div class="text-sm" v-click>
-  日常工作中将ai作为一个得力助手，善用ai的能力，做到 <span class="text-sky-300 font-bold text-lg">1 + 1 > 2</span> 的效果
+  日常工作中将ai作为一个得力助手，发挥ai的能力，做到 <span class="text-sky-300 font-bold text-lg">1 + 1 > 2</span> 的效果
 </div>
 
 <img
@@ -280,7 +280,7 @@ level: 2
     </div>
     <br />
     <div class="text-sm" v-click>
-      2. 时刻对科技、gis行业、编程、ai等最新咨询保持关注。🔥
+      2. 对科技、gis行业、编程、ai等最新咨询保持关注。🔥
     </div>
     <br />
     <div class="text-sm" v-click>
@@ -341,33 +341,10 @@ level: 2
   ]"
   :cons="[
     '没有很好将自己想法真正实践落地',
-    '缺少去推动事情进展的能力',
+    '缺少推动事情进展的能力',
     '技术广度、深度还有待提高',
   ]"
 />
-
-<!-- <div class="text-sm">
-  <span class="text-lg">✅ 进步</span>
-  <br />
-  今年一个很大的改进点就是 <span class="text-sky-300 text-lg">沟通</span>。
-  <br />
-  在沟通方面，今年明显感觉自己沟通能力有所提升，能够更好的表达自己的想法，以及理解他人的想法。
-</div>
-
-<br />
-<div class="text-sm">
-  <span class="text-lg">❌ 不足</span>
-  <br />
-  <ul class="ml-4">
-    <li>
-      1. 没有很好将自己想法真正实践落地。缺少魄力去推动事情的进展。
-    </li>
-    <li>
-      2. 技术广度、深度还有待提高。
-    </li>
-  </ul>
-</div> -->
-
 
 ---
 

@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import { useSlideContext } from '@slidev/client'
-import { onMounted, watch } from 'vue'
+import { watch } from 'vue'
 import confetti from "canvas-confetti";
 
 const slideContext = useSlideContext()
@@ -54,13 +54,4 @@ function handleClick() {
 
   frame();
 }
-
-onMounted(() => {
-  const e = useSlideContext()
-  debugger;
-})
-
-// onMounted(() => {
-//   handleClick();
-// });
 </script>
