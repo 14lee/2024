@@ -1,14 +1,13 @@
 ---
-theme: seriph
-background: https://cover.sli.dev
-title: 2024年度总结
+highlighter: shiki
+css: unocss
+colorSchema: dark
+transition: fade-out
 class: text-center
-# https://sli.dev/features/drawing
-drawings:
-  persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
+title: 李宇栋2024年度总结
+layout: center
+glowSeed: 4
+lang: zh-CN
 mdc: true
 hideInToc: true
 ---
@@ -37,7 +36,6 @@ hideInToc: true
 layout: image-right
 image: https://cover.sli.dev
 backgroundSize: cover
-transition: fade-out
 hideInToc: true
 ---
 
@@ -69,8 +67,8 @@ level: 2
 <br />
 <div class="text-sm">
   <div class="">
-    <span>底座平台:</span>
-    <ul class="ml-4">
+    <span v-click>底座平台:</span>
+    <ul class="ml-4" v-click>
       <li>
         <span class="text-sky-300">
           埋点、意见反馈、帮助中心...
@@ -84,8 +82,8 @@ level: 2
     </ul>
   </div>
   <div class="mt-4">
-    <span>智慧应用:</span>
-    <ul class="ml-4">
+    <span v-click>智慧应用:</span>
+    <ul class="ml-4" v-click>
       <li>
         <span class="text-sky-300">
           天气模拟、粒子特效、剖面分析、位置编辑、
@@ -98,10 +96,10 @@ level: 2
     </ul>
   </div>
   <div class="mt-4">
-    <span>
+    <span v-click>
       物联网平台
     </span>
-    <ul class="ml-4">
+    <ul class="ml-4" v-click>
       <li>
         <span class="text-sky-300">
           设备管理、产品管理、监控概览、设备接入管理、
@@ -112,10 +110,10 @@ level: 2
     </ul>
   </div>
   <div class="mt-4">
-    <span>
+    <span v-click>
       数据中心
     </span>
-    <ul class="ml-4">
+    <ul class="ml-4" v-click>
       <li>
         <span class="text-sky-300">
           元数据模板、首页看板、服务发布、服务管理
@@ -225,40 +223,40 @@ level: 2
 
 ---
 
-# ai分享与实践 🤖
+# ai分享与实践
 
 <div class="text-sm">
   今年9月份在林子胜和宋紫璇的带领下，有幸的参与了ai分享会，从中学习到了不少ai相关的基础知识与实战经验。
 </div>
 <br />
-<div class="text-sm">
-  日常工作中也是将ai作为一个得力助手，善用ai的能力，做到 <span class="text-sky-300 font-bold">1 + 1 > 2</span> 的效果
+<div class="text-sm" v-click>
+  日常工作中将ai作为一个得力助手，善用ai的能力，做到 <span class="text-sky-300 font-bold text-lg">1 + 1 > 2</span> 的效果
 </div>
 
 <img
   v-click
-  class="absolute left-10 bottom-2 w-auto h-90"
+  class="absolute left-5 bottom-2 w-auto h-90"
   src="/ai.png"
   alt=""
 />
 
 <img
   v-click
-  class="absolute left-30 bottom-2 w-auto h-90"
+  class="absolute left-20 bottom-2 w-auto h-90"
   src="/cursor.png"
   alt=""
 />
 
 <img
   v-click
-  class="absolute left-50 bottom-2 w-auto h-90"
+  class="absolute left-35 bottom-2 w-auto h-90"
   src="/kimi.png"
   alt=""
 />
 
 <img
   v-click
-  class="absolute left-70 bottom-2 w-auto h-90"
+  class="absolute left-60 bottom-2 w-auto h-90"
   src="/zetly.png"
   alt=""
 />
@@ -278,7 +276,7 @@ level: 2
 <section class="flex">
   <section class="w-40%">
     <div class="text-sm">
-      1. 学习vue、vueuse等优秀开源项目源码，并运用到项目、产品实践中。👉
+      1. 学习vue、vueuse等优秀开源项目源码，并运用到项目、产品实践中。💻
     </div>
     <br />
     <div class="text-sm" v-click>
@@ -286,8 +284,8 @@ level: 2
     </div>
     <br />
     <div class="text-sm" v-click>
-      3. 业余时间折腾diy nas（<span class="text-red-500 text-lg">all in boom</span>
-      <br /> 💥 👉 💀）
+      3. 业余时间折腾diy nas, 拓展工程化能力
+      <br />（<span class="text-red-500 text-lg font-bold">all in boom</span> 💥👉💀）
     </div>
   </section>
 
@@ -300,19 +298,25 @@ level: 2
     />
     <img
       v-click
-      class="absolute left-0 top-0 w-full h-auto"
+      class="absolute left-2 -top-10 w-full h-auto"
       src="/follow.png"
       alt=""
     />
     <img
       v-click
-      class="absolute left-0 top-20 w-full h-auto"
+      class="absolute left-4 top-0 w-full h-auto"
       src="/github-trending.png"
       alt=""
     />
     <img
       v-click
-      class="absolute left-0 top-40 w-full h-auto"
+      class="absolute left-6 top-10 w-full h-auto"
+      src="/koala.png"
+      alt=""
+    />
+    <img
+      v-click
+      class="absolute left-8 top-30 w-full h-auto"
       src="/nas.jpg"
       alt=""
     />
@@ -329,7 +333,20 @@ level: 2
 
 # 进步与不足
 
-<div class="text-sm">
+<ProsCons
+  :pros="[
+    '沟通交流',
+    '工程化能力有所进步',
+    'ai基础知识有所提升'
+  ]"
+  :cons="[
+    '没有很好将自己想法真正实践落地',
+    '缺少去推动事情进展的能力',
+    '技术广度、深度还有待提高',
+  ]"
+/>
+
+<!-- <div class="text-sm">
   <span class="text-lg">✅ 进步</span>
   <br />
   今年一个很大的改进点就是 <span class="text-sky-300 text-lg">沟通</span>。
@@ -349,38 +366,40 @@ level: 2
       2. 技术广度、深度还有待提高。
     </li>
   </ul>
-</div>
+</div> -->
 
 
 ---
 
 # 展望未来
 
-<div class="text-sm">
-  <ul class="ml-4">
-    <li>
-      1. 持续深入数孪平台产品开发，提高平台的可用性、稳定性、易用性
-    </li>
-    <li>
-      2. 加强ai方面的实践应用。
-    </li>
-    <li>
-      3. 与他人保持良好的沟通交流，保持团队协作
-    </li>
-    <li>
-      4. 继续保持对技术的渴望，保持学习，保持进步
-    </li>
-    <li>
-      5. 持续保持对新鲜事物的好奇心
-    </li>
-  </ul>
+<div v-click class="slidev-vclick-target mb-5" :class="$clicks === 1 ? 'text-cyan-400' : ''">
+  <div i-ph-target-bold text-cyan-400 inline-block translate-y-2px />
+  持续深入数孪平台产品开发，提高平台的可用性、稳定性、易用性
 </div>
+
+<div v-click class="slidev-vclick-target mb-5" :class="$clicks === 2 ? 'text-cyan-400' : ''">
+  <div i-ph-target-bold text-cyan-400 inline-block translate-y-2px />
+  加强ai方面的实践应用。
+</div>
+
+<div v-click class="slidev-vclick-target mb-5" :class="$clicks === 3 ? 'text-cyan-400' : ''">
+  <div i-ph-target-bold text-cyan-400 inline-block translate-y-2px />
+  与他人保持良好的沟通交流，保持团队协作
+</div>
+
+<div v-click class="slidev-vclick-target mb-5" :class="$clicks === 4 ? 'text-cyan-400' : ''">
+  <div i-ph-target-bold text-cyan-400 inline-block translate-y-2px />
+  继续保持对技术的渴望，保持学习，保持进步
+</div>
+
 
 ---
 hideInToc: true
-layout: cover
-background: https://cover.sli.dev
+layout: end
 ---
 
 # 感谢聆听
+
+<Confetti />
 
